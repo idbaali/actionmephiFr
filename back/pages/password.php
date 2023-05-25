@@ -61,8 +61,10 @@
                     <div class="col-md-7 col-12 col-sm-7 col-lg-7">
                         <div class="form-group  p-3   text-light">         
                             <h2 class="mt-2 mb-5 text-dark">Choisir Mon mot de passe</h2>
+                            
                                 <div class="mt-3">
                                     <?php if(!isset($_SESSION['admin'])): ?>
+                                        
                                         <div>
                                             <input type="email"  class="form-control mt-2" name="email" placeholder="Taper votre email">
                                         </div>
