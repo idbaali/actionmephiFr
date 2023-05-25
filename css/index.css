@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+.heure {
+    align-content: center;
+    align-items: center;
+}
+
+ul .menu-milieu {
+    text-align: center;
+}
+
+
+/* 
+
+ */
+
+.filtre:hover {
+    filter: contrast(50%);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+a.mel:link {
+    text-decoration: none;
+    color: white;
+}
+
+.barre {
+    border: 2px solid #0275d8;
+}
+
+.haut {
+    background-size: cover;
+    min-height: 40vh;
+}
+
+.horange {
+    background-color: #ED7F10;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.bg-footer,
+.bg-videos {
+    /* background-color: rgb(66, 103, 124); */
+    background-color: #2980b9;
+}
+
+
+/************************* menu ********************/
+
+.nav-link:hover {
+    border-bottom: 3px solid #0275d8;
+}
+
+
+/*********************** @mediaquery *****************/
+
+@media (max-width: 768px) {
+    .handy1 {
+        display: none;
+    }
+    /*     header {
+        background-image: url("https://cdn.pixabay.com/photo/2015/05/02/14/05/wheelchair-749985_960_720.jpg");
+        min-height: 70vh;
+        background-repeat: repeat-y;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        overflow: hidden;
+    } */
+}
+
+@media (min-width: 992px) {
+    .handy2 {
+        display: none;
+    }
+}
+
+
+/************************* index2 -- CSs ********************/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium';
+}
+.size {
+    font-size: 4em;
+}
+.form-login{
+    margin-top: 5%;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/baali_action.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+section {
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.main ul li a {
+    text-decoration: none;
+    color: #ED7F10;
+    padding: 5px 10px;
+    border: 2px solid white;
+    transition: 0.6s ease;
+}
+
+.main ul li a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    float: left;
+    width: 150px;
+    height: 200px;
+}
+
+
+/* .main {
+    max-width: 1200px;
+    margin: auto;
+} */
+
+ul li.active a {
+    background-color: white;
+    color: black;
+}
+
+.titre {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.titre h1 {
+    color: white;
+    font-size: 65px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descript {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+.logo_rond {
+    border-radius: 30px 30px 30px 30px;
+}
+
+.actua {
+    margin-top: 10%;
+}
+
+.bouton_tete a {
+    text-decoration: none;
+}
+
+/* style photo nos valeurs Associations*/
+.photo_valeur{
+    width: 100%;
+    clip-path: circle(50% at 50% 50%);
+}
+.image_mephi{
+    margin-top: 70px;
+}
+.margin_nav{
+    margin-top: 48px;
+}
+.error_titre {
+    font-size: 8em;
+}
+
+
+/* p {
+    font-family: 'Quicksand', sans-serif;
+} */
+
+
+/* here style pour media(téléphone) */
+
+@media (max-width:991px) {
+    section {
+        background-size: 200%;
+    }
+}
+/* media pour telephone*/
+@media (max-width: 576px) {
+    /* taille images*/
+
+.phone_cache {
+   display: none;
+}
+.actua {
+    margin-top: 20%;
+}
+
+}
+ /* media pour ordinateur*/
+ @media (min-width: 576px) {
+    .ordi_cache{
+        display: none;
+    } 
+ }

@@ -1,0 +1,31 @@
+.form-login{
+    margin-top: 42px;
+    margin-bottom: 10px;
+}
+
+.form-modif{
+  margin-top: 67px;
+  margin-bottom: 10px;
+}
+.form-dash{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.hr-barre{
+    border: 5px solid rgb(243, 67, 67);
+}
+ /*CSS header - Menu*/
+ .icon-align{
+    margin-left: 45%;
+    position: right;
+  }
+
+  
+  /*CSS header - Menu*/
+
+  /* barre verticale - page reglages*/
+  .barre-vertical{
+    border-left: 7px solid rgb(32, 31, 31);
+    height: 220px;
+  }
+ /* fin  barre verticale - page reglages*/
